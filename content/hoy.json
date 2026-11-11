@@ -1,0 +1,63 @@
+{
+  "fecha": "Miércoles 11 de noviembre de 2026",
+  "actualizado": "12:30 h",
+  "clima": {
+    "max": 21,
+    "min": 10,
+    "texto": "Mañana fresca y tarde templada en la capital, con cielo medio nublado y viento de unos 8 km/h (pronóstico vía El Financiero).",
+    "viento": "8 km/h",
+    "aire": "Buena (ozono dominante)",
+    "aire_estado": "ok",
+    "fuente": "SMN · Conagua"
+  },
+  "popocatepetl": {
+    "fase": "Amarillo Fase 2",
+    "color": "amarillo",
+    "texto": "Reporte del 10 de noviembre: 68 exhalaciones de baja intensidad y 8.3 horas de tremor armónico de baja amplitud. Respeta el radio de exclusión de 12 km.",
+    "fuente": "Cenapred"
+  },
+  "municipios": [
+    { "nombre": "Cholula", "max": 20.7, "min": 9, "lluvia": "—" }
+  ],
+  "vialidades": [
+    {
+      "nombre": "Autopista México-Puebla",
+      "icono": "150D",
+      "color": "#0a2255",
+      "estado": "Abierta en ambos sentidos tras el bloqueo del 10 de nov. en Xoxtla",
+      "nivel": "ok"
+    },
+    {
+      "nombre": "Periférico Ecológico y caseta a Atlixco",
+      "icono": "PE",
+      "color": "#6b7280",
+      "estado": "Liberados tras los bloqueos del martes",
+      "nivel": "ok"
+    },
+    {
+      "nombre": "Calzada Zaragoza",
+      "icono": "CZ",
+      "color": "#c1212a",
+      "estado": "Cierres por rehabilitación del puente",
+      "nivel": "warn"
+    }
+  ],
+  "avisos": [
+    {
+      "titulo": "Popocatépetl en Amarillo Fase 2",
+      "texto": "Protección Civil estatal pide reforzar medidas preventivas y no acercarse al volcán; atiende solo información oficial del Cenapred.",
+      "nivel": "warn"
+    },
+    {
+      "titulo": "Maratón de Puebla: 29 de noviembre",
+      "texto": "Inscripciones abiertas para 5, 10, 21 y 42 km. Habrá cierres viales desde las 5:30 horas el día de la carrera.",
+      "nivel": "ok"
+    }
+  ],
+  "agenda": [
+    {
+      "hora": "Todo el día",
+      "texto": "El Complejo Cultural Universitario de la BUAP celebra 18 años"
+    }
+  ]
+}

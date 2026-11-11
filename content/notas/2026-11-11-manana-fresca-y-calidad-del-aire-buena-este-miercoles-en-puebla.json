@@ -1,0 +1,22 @@
+{
+  "titulo": "Mañana fresca y calidad del aire buena este miércoles en Puebla",
+  "seccion": "puebla",
+  "fecha": "2026-11-11T12:01",
+  "resumen": "El pronóstico para la capital marca una mínima de 10 °C y una máxima de 21 °C, con cielo medio nublado. El monitoreo ambiental reportó calidad del aire buena por la mañana, con el ozono como contaminante dominante.",
+  "cuerpo": "En Cholula se esperan valores de 9 °C a 20.7 °C. Con calidad del aire buena, se pueden realizar actividades al aire libre con normalidad.",
+  "imagen_tema": "zocalo_pue",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "El Financiero",
+      "enlace": "https://www.elfinanciero.com.mx/estados/2026/11/10/clima-en-puebla-y-morelos-miercoles-11-de-noviembre-con-temperaturas-frescas-source-ia/"
+    },
+    {
+      "medio": "El Heraldo de México",
+      "enlace": "https://heraldodemexico.com.mx/nacional/2026/11/11/calidad-del-aire-hoy-miercoles-11-de-noviembre-de-2026-en-puebla-2917051.html"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}

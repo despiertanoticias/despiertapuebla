@@ -1,0 +1,22 @@
+{
+  "titulo": "Demócratas toman el control del Congreso de Estados Unidos",
+  "seccion": "internacional",
+  "fecha": "2026-11-11T11:54",
+  "resumen": "En las elecciones intermedias del 3 de noviembre, el Partido Demócrata ganó la mayoría en la Cámara de Representantes y en el Senado, un revés para el presidente Donald Trump.",
+  "cuerpo": "Según Bloomberg, los demócratas arrebataron al menos siete escaños del Senado y ganaron distritos de la Cámara en estados como Indiana, Iowa, Virginia, Texas y Pensilvania. Sus líderes anunciaron que abrirán investigaciones sobre el gobierno.",
+  "imagen_tema": "texas",
+  "imagen": "",
+  "credito": "",
+  "fuentes": [
+    {
+      "medio": "Animal Político (AFP)",
+      "enlace": "https://grupoanimal.mx/internacional/democratas-camara-senado-eu-investigar-trump-gobierno"
+    },
+    {
+      "medio": "La República (Bloomberg)",
+      "enlace": "https://www.larepublica.co/globoeconomia/democratas-ganan-camara-y-senado-en-duro-reves-electoral-para-el-presidente-trump-4517195"
+    }
+  ],
+  "destacada": false,
+  "autor": "Redacción"
+}
