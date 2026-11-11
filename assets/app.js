@@ -154,7 +154,7 @@ function nota(){
   if(!n)return {actual:"",html:'<div class="wrap"><main class="cuerpo" id="contenido"><div><div class="cabeza"><h1>Nota no encontrada</h1></div><p class="vacio">Esta nota no existe o fue retirada. Vuelve a la <a href="/" style="text-decoration:underline">portada</a>.</p></div>'+rail()+'</main></div>'};
   document.title=n.t+" · Despierta Puebla";
   var meta=document.querySelector('meta[name="description"]');if(meta)meta.setAttribute("content",n.r);
-  var m=IMG[n.img]||{}, rel=NOTAS.filter(function(x){return x.c===n.c&&x.id!==n.id}).slice(0,3);
+  var m=IMG[n.img]||{}, relac=NOTAS.filter(function(x){return x.c===n.c&&x.id!==n.id}).slice(0,3);
   var credito=n.foto?esc(n.cred||""):m.file&&!/^(\/?img\/|https?:)/.test(m.file)?'Foto: '+esc(m.alt)+' · <a href="https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(m.file)+'" target="_blank" rel="noopener">Wikimedia Commons</a> (imagen de referencia)':esc(m.alt||"");
   var h='<div class="wrap"><main class="cuerpo" id="contenido"><article class="nota-art">'+
     '<div class="migas"><a href="/">Portada</a><span>›</span><a href="'+urlSec(n.c)+'">'+CATS[n.c]+'</a></div>'+
@@ -163,7 +163,7 @@ function nota(){
     '<div class="texto">'+parrafos(n)+'</div>'+
     '<div class="caja-fuentes"><b>Fuentes</b><ul>'+n.src.map(function(s){return '<li><a href="'+esc(s[1])+'" target="_blank" rel="'+rel(n)+'">'+esc(s[0])+'</a></li>'}).join("")+'</ul></div>'+
     '<div class="compartir"><button class="btn sec" type="button" id="copiar">Copiar enlace</button><span id="copiado" role="status"></span></div>'+
-    (rel.length?'<div class="cabeza"><h2>Más de '+CATS[n.c]+'</h2><a class="mas" href="'+urlSec(n.c)+'">Ver todas →</a></div><div class="tarjetas">'+rel.map(function(x){return tarjeta(x,false)}).join("")+'</div>':'')+
+    (relac.length?'<div class="cabeza"><h2>Más de '+CATS[n.c]+'</h2><a class="mas" href="'+urlSec(n.c)+'">Ver todas →</a></div><div class="tarjetas">'+relac.map(function(x){return tarjeta(x,false)}).join("")+'</div>':'')+
     '</article>'+rail()+'</main></div>';
   return {actual:n.c,html:h};
 }
